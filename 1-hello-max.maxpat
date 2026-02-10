@@ -41,7 +41,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 522.619042634964, 817.8571350574493, 150.0, 47.0 ],
+                    "patching_rect": [ 522.619042634964, 817.8571350574493, 151.0, 47.0 ],
                     "text": "signal multiplier, multiplies two signals by 0, dont really understand"
                 }
             },
@@ -97,7 +97,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 113.09523701667786, 72.61904692649841, 321.0, 127.0 ],
-                    "presentation_linecount": 7,
                     "text": "I followed a youtube tutorial to make this simple one-oscilliscope synth that even has a filter and adsr controls! I am still curious to learn the inter-workings of msp but this was already a lot of fun"
                 }
             },
@@ -324,8 +323,18 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 426.0, 503.5714237689972, 22.0, 140.0 ]
+                    "parameter_enable": 1,
+                    "patching_rect": [ 426.0, 503.5714237689972, 22.0, 140.0 ],
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_longname": "gain~",
+                            "parameter_mmax": 157.0,
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "gain~",
+                            "parameter_type": 0
+                        }
+                    },
+                    "varname": "gain~"
                 }
             },
             {
@@ -491,6 +500,18 @@
                 }
             }
         ],
+        "parameters": {
+            "obj-7": [ "gain~", "gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
         "autosave": 0
     }
 }
