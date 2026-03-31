@@ -48,8 +48,8 @@
                                 "loop": 1,
                                 "content_state": {
                                     "timestretch": 0,
-                                    "pitchshift": 0.5338582677165354,
-                                    "speed": 1.6,
+                                    "pitchshift": 0.4015748031496063,
+                                    "speed": 1.5905511811023625,
                                     "loop": 1
                                 }
                             }
@@ -63,7 +63,7 @@
                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 1940.0, 1145.0, 150.0, 92.0 ],
-                    "pitchshiftcent": [ -1087 ],
+                    "pitchshiftcent": [ -1580 ],
                     "presentation": 1,
                     "presentation_rect": [ 993.0434457063675, 240.54052448272705, 150.0, 92.0 ],
                     "quality": "basic",
@@ -275,17 +275,18 @@
             },
             {
                 "box": {
-                    "fontsize": 36.0,
+                    "fontsize": 48.0,
                     "id": "obj-119",
+                    "linecount": 3,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 211.60223025083542, 205.52488160133362, 181.0, 49.0 ],
+                    "patching_rect": [ 211.60223025083542, 205.52488160133362, 183.0, 169.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 129.45204538106918, 196.5753281712532, 114.38355332612991, 89.0 ],
-                    "text": "Start video"
+                    "presentation_linecount": 3,
+                    "presentation_rect": [ 84.78260707855225, 184.7826051712036, 156.0, 169.0 ],
+                    "text": "Start audio/video"
                 }
             },
             {
@@ -1063,7 +1064,7 @@
                     "patching_rect": [ 247.47473537921906, 811.1110714673996, 158.1560316681862, 86.52482450008392 ],
                     "presentation": 1,
                     "presentation_rect": [ 107.56580621004105, 427.14286732673645, 158.1560316681862, 86.52482450008392 ],
-                    "saturation": 0.3333333333333333
+                    "saturation": 0.41568627450980394
                 }
             },
             {
@@ -1867,14 +1868,6 @@
             "obj-97::obj-61": [ "Y origin", "Y origin", 0 ],
             "obj-97::obj-7": [ "pictctrl[5]", "pictctrl[1]", 0 ],
             "obj-97::obj-8": [ "X origin", "X origin", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-96::obj-26": {
                     "parameter_longname": "pictctrl[49]"
