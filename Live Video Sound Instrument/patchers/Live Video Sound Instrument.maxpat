@@ -22,11 +22,12 @@
                                 "filename": "alcohol.mp3",
                                 "filekind": "audiofile",
                                 "id": "u210006049",
-                                "loop": 0,
+                                "loop": 1,
                                 "content_state": {
                                     "timestretch": 0,
                                     "pitchshift": 1.0,
-                                    "speed": 1.6
+                                    "speed": 1.6,
+                                    "loop": 1
                                 }
                             }
                         ]
@@ -1034,7 +1035,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 284.0, 508.5918343067169, 171.42856979370117, 134.81633138656616 ]
+                    "patching_rect": [ 284.14634823799133, 508.53659749031067, 171.42856979370117, 134.81633138656616 ]
                 }
             },
             {
@@ -1846,6 +1847,14 @@
             "obj-97::obj-61": [ "Y origin", "Y origin", 0 ],
             "obj-97::obj-7": [ "pictctrl[5]", "pictctrl[1]", 0 ],
             "obj-97::obj-8": [ "X origin", "X origin", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-96::obj-26": {
                     "parameter_longname": "pictctrl[49]"
