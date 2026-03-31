@@ -10,16 +10,81 @@
         },
         "classnamespace": "box",
         "rect": [ 34.0, 96.0, 1167.0, 884.0 ],
+        "openinpresentation": 1,
         "boxes": [
             {
                 "box": {
-                    "id": "obj-129",
-                    "maxclass": "newobj",
+                    "id": "obj-98",
+                    "maxclass": "comment",
                     "numinlets": 1,
-                    "numoutlets": 2,
-                    "outlettype": [ "float", "bang" ],
-                    "patching_rect": [ 1309.1429156661034, 618.857170522213, 200.0, 22.0 ],
-                    "text": "buffer~ mybuffer media/alcohol.mp3"
+                    "numoutlets": 0,
+                    "patching_rect": [ 993.0434457063675, 211.30434089899063, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 993.0434457063675, 211.30434089899063, 150.0, 20.0 ],
+                    "text": "playlist"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-94",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 783.0, 213.52488160133362, 150.0, 33.0 ],
+                    "presentation": 1,
+                    "presentation_linecount": 2,
+                    "presentation_rect": [ 849.5651895403862, 356.5217274427414, 150.0, 33.0 ],
+                    "text": "pictslider to visualize tracking data"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-92",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 981.0, 242.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 799.1304085850716, 447.8260722756386, 150.0, 20.0 ],
+                    "text": "video player"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-44",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1156.0, 235.5, 150.0, 33.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 625.7391133308411, 641.4782391190529, 243.47825288772583, 20.0 ],
+                    "text": "brightness contrast and saturation effects"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-38",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1174.0, 272.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1173.9130049943924, 723.4782371520996, 150.0, 20.0 ],
+                    "text": "stretch video"
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-36",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1015.0, 272.0, 150.0, 20.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1053.0434437394142, 889.565188229084, 150.0, 20.0 ],
+                    "text": "mix video signals"
                 }
             },
             {
@@ -106,7 +171,7 @@
                     "outlettype": [ "jit_gl_texture" ],
                     "patching_rect": [ 1586.0000472664833, 1119.834648668766, 260.0, 130.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 732.4999301433563, 829.9999208450317, 260.0, 130.0 ],
+                    "presentation_rect": [ 887.8260578513145, 663.4782391190529, 260.0, 130.0 ],
                     "prototypename": "pixl",
                     "varname": "stretchr",
                     "viewvisibility": 1
@@ -131,7 +196,7 @@
                     "outlettype": [ "jit_gl_texture" ],
                     "patching_rect": [ 1456.6667100787163, 1295.333371937275, 228.0, 130.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 884.999915599823, 667.4999363422394, 228.0, 130.0 ],
+                    "presentation_rect": [ 772.1738877296448, 846.956493973732, 228.0, 130.0 ],
                     "prototypename": "pixl",
                     "varname": "4mixr",
                     "viewvisibility": 1
@@ -252,7 +317,8 @@
                                 "content_state": {
                                     "speed": 1.6,
                                     "loop": 1,
-                                    "pitchshift": 1.0
+                                    "pitchshift": 1.0,
+                                    "timestretch": 1
                                 }
                             }
                         ]
@@ -336,7 +402,7 @@
                     "outlettype": [ "jit_gl_texture" ],
                     "patching_rect": [ 1330.0, 1119.834648668766, 208.0, 130.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 592.4999434947968, 667.4999363422394, 208.0, 130.0 ],
+                    "presentation_rect": [ 643.478239774704, 663.4782391190529, 208.0, 130.0 ],
                     "prototypename": "pixl",
                     "varname": "brcosr",
                     "viewvisibility": 1
@@ -720,7 +786,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 931.25, 352.1276570558548, 35.0, 22.0 ],
+                    "patching_rect": [ 1215.517305135727, 457.75864470005035, 35.0, 22.0 ],
                     "text": "clear"
                 }
             },
@@ -731,7 +797,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "jit_matrix", "" ],
-                    "patching_rect": [ 937.75, 396.2686425447464, 119.0, 22.0 ],
+                    "patching_rect": [ 1224.1379952430725, 494.82761216163635, 119.0, 22.0 ],
                     "text": "jit.lcd 4 char 320 240"
                 }
             },
@@ -962,7 +1028,7 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 284.0, 726.5625, 158.1560316681862, 86.52482450008392 ],
                     "presentation": 1,
-                    "presentation_rect": [ 118.0, 431.0, 158.1560316681862, 86.52482450008392 ],
+                    "presentation_rect": [ 107.56580621004105, 427.14286732673645, 158.1560316681862, 86.52482450008392 ],
                     "saturation": 0.6549019607843137
                 }
             },
@@ -981,7 +1047,7 @@
                 "box": {
                     "fontsize": 20.0,
                     "id": "obj-24",
-                    "items": [ "FaceTime HD Camera", ",", "Dieder Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera" ],
+                    "items": [ "FaceTime HD Camera", ",", "Dieder Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera", ",", "FaceTime HD Camera" ],
                     "maxclass": "umenu",
                     "numinlets": 1,
                     "numoutlets": 3,
