@@ -14,6 +14,128 @@
         "boxes": [
             {
                 "box": {
+                    "clipheight": 91.0,
+                    "data": {
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/diederthyen/Desktop/current class shi/Interactive sound/Max-MSP-SP26-DThyen/Live Video Sound Instrument/media/alcohol.mp3",
+                                "filename": "alcohol.mp3",
+                                "filekind": "audiofile",
+                                "id": "u210006049",
+                                "loop": 0,
+                                "content_state": {
+                                    "timestretch": 0,
+                                    "pitchshift": 1.0,
+                                    "speed": 1.6
+                                }
+                            }
+                        ]
+                    },
+                    "id": "obj-37",
+                    "maxclass": "playlist~",
+                    "mode": "basic",
+                    "numinlets": 1,
+                    "numoutlets": 5,
+                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1940.0, 1145.0, 150.0, 92.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 993.0434457063675, 240.54052448272705, 150.0, 92.0 ],
+                    "quality": "basic",
+                    "saved_attribute_attributes": {
+                        "candicane2": {
+                            "expression": ""
+                        },
+                        "candicane3": {
+                            "expression": ""
+                        },
+                        "candicane4": {
+                            "expression": ""
+                        },
+                        "candicane5": {
+                            "expression": ""
+                        },
+                        "candicane6": {
+                            "expression": ""
+                        },
+                        "candicane7": {
+                            "expression": ""
+                        },
+                        "candicane8": {
+                            "expression": ""
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "clipheight": 91.0,
+                    "data": {
+                        "clips": [
+                            {
+                                "absolutepath": "/Users/diederthyen/Desktop/current class shi/Interactive sound/Max-MSP-SP26-DThyen/Live Video Sound Instrument/media/alcohol.mp4",
+                                "filename": "alcohol.mp4",
+                                "filekind": "moviefile",
+                                "id": "u665005735",
+                                "loop": 1,
+                                "content_state": {
+                                    "loop": 1
+                                }
+                            }
+                        ]
+                    },
+                    "drawto": "",
+                    "id": "obj-25",
+                    "loop": 1,
+                    "maxclass": "jit.playlist",
+                    "numinlets": 1,
+                    "numoutlets": 3,
+                    "outlettype": [ "jit_matrix", "", "dictionary" ],
+                    "output_texture": 0,
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1368.0, 952.2222709655762, 150.0, 92.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 850.0, 515.0, 150.0, 92.0 ],
+                    "saved_attribute_attributes": {
+                        "candicane2": {
+                            "expression": ""
+                        },
+                        "candicane3": {
+                            "expression": ""
+                        },
+                        "candicane4": {
+                            "expression": ""
+                        },
+                        "candicane5": {
+                            "expression": ""
+                        },
+                        "candicane6": {
+                            "expression": ""
+                        },
+                        "candicane7": {
+                            "expression": ""
+                        },
+                        "candicane8": {
+                            "expression": ""
+                        }
+                    }
+                }
+            },
+            {
+                "box": {
+                    "fontsize": 30.0,
+                    "id": "obj-41",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1248.6667038798332, 201.33333933353424, 346.0, 40.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 1172.972894668579, 178.29457640647888, 346.0, 40.0 ],
+                    "text": "audio level"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-98",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -33,8 +155,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 783.0, 213.52488160133362, 150.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 2,
-                    "presentation_rect": [ 849.5651895403862, 356.5217274427414, 150.0, 33.0 ],
+                    "presentation_rect": [ 617.0, 425.5, 194.0, 20.0 ],
                     "text": "pictslider to visualize tracking data"
                 }
             },
@@ -46,8 +167,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 981.0, 242.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 799.1304085850716, 447.8260722756386, 150.0, 20.0 ],
-                    "text": "video player"
+                    "presentation_rect": [ 856.4706239700317, 489.4117851257324, 150.0, 20.0 ],
+                    "text": "jit playlist"
                 }
             },
             {
@@ -59,7 +180,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1156.0, 235.5, 150.0, 33.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 625.7391133308411, 641.4782391190529, 243.47825288772583, 20.0 ],
+                    "presentation_rect": [ 683.5294402837753, 683.5294402837753, 243.47825288772583, 20.0 ],
                     "text": "brightness contrast and saturation effects"
                 }
             },
@@ -71,7 +192,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1174.0, 272.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1173.9130049943924, 723.4782371520996, 150.0, 20.0 ],
+                    "presentation_rect": [ 952.9412162303925, 683.5294402837753, 150.0, 20.0 ],
                     "text": "stretch video"
                 }
             },
@@ -83,7 +204,7 @@
                     "numoutlets": 0,
                     "patching_rect": [ 1015.0, 272.0, 150.0, 20.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 1053.0434437394142, 889.565188229084, 150.0, 20.0 ],
+                    "presentation_rect": [ 829.4117993116379, 862.3529771566391, 150.0, 20.0 ],
                     "text": "mix video signals"
                 }
             },
@@ -171,7 +292,7 @@
                     "outlettype": [ "jit_gl_texture" ],
                     "patching_rect": [ 1586.0000472664833, 1119.834648668766, 260.0, 130.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 887.8260578513145, 663.4782391190529, 260.0, 130.0 ],
+                    "presentation_rect": [ 945.8823924064636, 705.8823823928833, 260.0, 130.0 ],
                     "prototypename": "pixl",
                     "varname": "stretchr",
                     "viewvisibility": 1
@@ -196,7 +317,7 @@
                     "outlettype": [ "jit_gl_texture" ],
                     "patching_rect": [ 1456.6667100787163, 1295.333371937275, 228.0, 130.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 772.1738877296448, 846.956493973732, 228.0, 130.0 ],
+                    "presentation_rect": [ 829.4117993116379, 888.2353311777115, 228.0, 130.0 ],
                     "prototypename": "pixl",
                     "varname": "4mixr",
                     "viewvisibility": 1
@@ -220,7 +341,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 2191.1112155914307, 1060.0000505447388, 120.0, 22.0 ],
+                    "patching_rect": [ 2069.291448354721, 1061.4173791408539, 120.0, 22.0 ],
                     "text": "setclip 1 pitchshift $1"
                 }
             },
@@ -233,7 +354,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 2191.1112155914307, 1022.2222709655762, 50.0, 22.0 ]
+                    "patching_rect": [ 2069.291448354721, 1023.6221015453339, 50.0, 22.0 ]
                 }
             },
             {
@@ -245,7 +366,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 2068.8889875411987, 1022.2222709655762, 50.0, 22.0 ]
+                    "patching_rect": [ 1947.2441977858543, 1023.6221015453339, 50.0, 22.0 ]
                 }
             },
             {
@@ -255,7 +376,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 2068.8889875411987, 1060.0000505447388, 105.0, 22.0 ],
+                    "patching_rect": [ 1947.2441977858543, 1061.4173791408539, 105.0, 22.0 ],
                     "text": "setclip 1 speed $1"
                 }
             },
@@ -277,86 +398,9 @@
                     "numoutlets": 2,
                     "outlettype": [ "signal", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 1918.6667238473892, 1285.333371937275, 22.0, 140.0 ]
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-57",
-                    "maxclass": "message",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 1922.2223138809204, 1060.0000505447388, 131.0, 22.0 ],
-                    "text": "setclip 1 timestretch $1"
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-60",
-                    "maxclass": "toggle",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 1922.2223138809204, 1022.2222709655762, 24.0, 24.0 ]
-                }
-            },
-            {
-                "box": {
-                    "clipheight": 94.26269686222076,
-                    "data": {
-                        "clips": [
-                            {
-                                "absolutepath": "/Users/diederthyen/Downloads/Untitled.mp3",
-                                "filename": "Untitled.mp3",
-                                "filekind": "audiofile",
-                                "id": "u602007992",
-                                "selection": [ 0.078125, 0.6770833333333334 ],
-                                "loop": 1,
-                                "content_state": {
-                                    "speed": 1.6,
-                                    "loop": 1,
-                                    "pitchshift": 1.0,
-                                    "timestretch": 1
-                                }
-                            }
-                        ]
-                    },
-                    "id": "obj-63",
-                    "maxclass": "playlist~",
-                    "mode": "basic",
-                    "numinlets": 1,
-                    "numoutlets": 5,
-                    "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 1918.6667238473892, 1142.0000340342522, 247.0, 95.26269686222076 ],
+                    "patching_rect": [ 1918.6667238473892, 1285.333371937275, 22.0, 140.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 719.9999313354492, 180.25783330202103, 247.0, 95.26269686222076 ],
-                    "quality": "basic",
-                    "saved_attribute_attributes": {
-                        "candicane2": {
-                            "expression": ""
-                        },
-                        "candicane3": {
-                            "expression": ""
-                        },
-                        "candicane4": {
-                            "expression": ""
-                        },
-                        "candicane5": {
-                            "expression": ""
-                        },
-                        "candicane6": {
-                            "expression": ""
-                        },
-                        "candicane7": {
-                            "expression": ""
-                        },
-                        "candicane8": {
-                            "expression": ""
-                        }
-                    }
+                    "presentation_rect": [ 1172.8682352304459, 241.86046886444092, 254.26356983184814, 256.589151263237 ]
                 }
             },
             {
@@ -402,34 +446,9 @@
                     "outlettype": [ "jit_gl_texture" ],
                     "patching_rect": [ 1330.0, 1119.834648668766, 208.0, 130.0 ],
                     "presentation": 1,
-                    "presentation_rect": [ 643.478239774704, 663.4782391190529, 208.0, 130.0 ],
+                    "presentation_rect": [ 701.1764998435974, 705.8823823928833, 208.0, 130.0 ],
                     "prototypename": "pixl",
                     "varname": "brcosr",
-                    "viewvisibility": 1
-                }
-            },
-            {
-                "box": {
-                    "annotation": "## The VIZZIE video player/looper ##",
-                    "bgmode": 1,
-                    "border": 0,
-                    "clickthrough": 0,
-                    "enablehscroll": 0,
-                    "enablevscroll": 0,
-                    "id": "obj-28",
-                    "lockeddragscroll": 0,
-                    "lockedsize": 0,
-                    "maxclass": "bpatcher",
-                    "name": "vz.playr.maxpat",
-                    "numinlets": 7,
-                    "numoutlets": 2,
-                    "offset": [ 0.0, 0.0 ],
-                    "outlettype": [ "jit_gl_texture", "" ],
-                    "patching_rect": [ 1330.0, 892.0, 348.0, 158.0 ],
-                    "presentation": 1,
-                    "presentation_rect": [ 719.9999313354492, 469.99995517730713, 348.0, 158.0 ],
-                    "prototypename": "pixl",
-                    "varname": "playr",
                     "viewvisibility": 1
                 }
             },
@@ -1251,7 +1270,22 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-25", 0 ],
+                    "order": 1,
+                    "source": [ "obj-121", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-37", 0 ],
+                    "order": 0,
+                    "source": [ "obj-121", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-4", 0 ],
+                    "order": 2,
                     "source": [ "obj-121", 0 ]
                 }
             },
@@ -1369,6 +1403,20 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-30", 0 ],
+                    "order": 1,
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-97", 0 ],
+                    "order": 0,
+                    "source": [ "obj-25", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-34", 0 ],
                     "source": [ "obj-26", 0 ]
                 }
@@ -1377,20 +1425,6 @@
                 "patchline": {
                     "destination": [ "obj-1", 0 ],
                     "source": [ "obj-27", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-30", 0 ],
-                    "order": 1,
-                    "source": [ "obj-28", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-97", 0 ],
-                    "order": 0,
-                    "source": [ "obj-28", 0 ]
                 }
             },
             {
@@ -1421,6 +1455,12 @@
                 "patchline": {
                     "destination": [ "obj-39", 0 ],
                     "source": [ "obj-34", 0 ]
+                }
+            },
+            {
+                "patchline": {
+                    "destination": [ "obj-55", 0 ],
+                    "source": [ "obj-37", 0 ]
                 }
             },
             {
@@ -1475,7 +1515,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-63", 0 ],
+                    "destination": [ "obj-37", 0 ],
                     "source": [ "obj-48", 0 ]
                 }
             },
@@ -1499,7 +1539,7 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-63", 0 ],
+                    "destination": [ "obj-37", 0 ],
                     "source": [ "obj-51", 0 ]
                 }
             },
@@ -1537,12 +1577,6 @@
             },
             {
                 "patchline": {
-                    "destination": [ "obj-63", 0 ],
-                    "source": [ "obj-57", 0 ]
-                }
-            },
-            {
-                "patchline": {
                     "destination": [ "obj-87", 0 ],
                     "source": [ "obj-58", 0 ]
                 }
@@ -1551,12 +1585,6 @@
                 "patchline": {
                     "destination": [ "obj-61", 0 ],
                     "source": [ "obj-59", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-57", 0 ],
-                    "source": [ "obj-60", 0 ]
                 }
             },
             {
@@ -1575,12 +1603,6 @@
                 "patchline": {
                     "destination": [ "obj-68", 0 ],
                     "source": [ "obj-62", 1 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-55", 0 ],
-                    "source": [ "obj-63", 0 ]
                 }
             },
             {
@@ -1782,24 +1804,6 @@
             }
         ],
         "parameters": {
-            "obj-28::obj-10": [ "pictctrl[3]", "pictctrl[1]", 0 ],
-            "obj-28::obj-112::obj-119": [ "Speed high", "Speed high", 0 ],
-            "obj-28::obj-112::obj-120": [ "Rate range", "Rate range", 0 ],
-            "obj-28::obj-112::obj-121": [ "Speed low", "Speed low", 0 ],
-            "obj-28::obj-112::obj-16": [ "Playback range", "Playback range", 0 ],
-            "obj-28::obj-112::obj-40": [ "Playback controls", "Playback controls", 0 ],
-            "obj-28::obj-112::obj-79": [ "Playback position", "Playback position", 0 ],
-            "obj-28::obj-112::obj-89": [ "Reset range", "Reset range", 0 ],
-            "obj-28::obj-112::obj-92": [ "Reset speed", "Reset speed", 0 ],
-            "obj-28::obj-20": [ "pictctrl[4]", "pictctrl[1]", 0 ],
-            "obj-28::obj-28": [ "pictctrl[279]", "pictctrl[1]", 0 ],
-            "obj-28::obj-40": [ "pictctrl[283]", "pictctrl[1]", 0 ],
-            "obj-28::obj-51": [ "moviepath", "moviepath", 0 ],
-            "obj-28::obj-60": [ "pictctrl[282]", "pictctrl[1]", 0 ],
-            "obj-28::obj-64": [ "pictctrl[284]", "pictctrl[1]", 0 ],
-            "obj-28::obj-81": [ "pictctrl[281]", "pictctrl[1]", 0 ],
-            "obj-28::obj-83": [ "pictctrl[280]", "pictctrl[1]", 0 ],
-            "obj-28::obj-89": [ "moviename", "moviename", 0 ],
             "obj-30::obj-104": [ "pictctrl[9]", "pictctrl[1]", 0 ],
             "obj-30::obj-119": [ "Brightness", "Brightness", 0 ],
             "obj-30::obj-120": [ "Brightness range", "Brightness range", 1 ],
@@ -1843,12 +1847,6 @@
             "obj-97::obj-7": [ "pictctrl[5]", "pictctrl[1]", 0 ],
             "obj-97::obj-8": [ "X origin", "X origin", 0 ],
             "parameter_overrides": {
-                "obj-28::obj-10": {
-                    "parameter_longname": "pictctrl[3]"
-                },
-                "obj-28::obj-20": {
-                    "parameter_longname": "pictctrl[4]"
-                },
                 "obj-96::obj-26": {
                     "parameter_longname": "pictctrl[49]"
                 }
