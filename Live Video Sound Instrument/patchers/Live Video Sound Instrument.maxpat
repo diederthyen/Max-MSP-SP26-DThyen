@@ -13,6 +13,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-129",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "float", "bang" ],
+                    "patching_rect": [ 1309.1429156661034, 618.857170522213, 200.0, 22.0 ],
+                    "text": "buffer~ mybuffer media/alcohol.mp3"
+                }
+            },
+            {
+                "box": {
                     "fontsize": 16.0,
                     "id": "obj-126",
                     "maxclass": "message",
