@@ -14,6 +14,17 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-7",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 226.15386772155762, 140.00001335144043, 58.0, 22.0 ],
+                    "text": "loadbang"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-57",
                     "maxclass": "suckah",
                     "numinlets": 1,
@@ -63,7 +74,6 @@
                     "outlettype": [ "signal", "signal", "signal", "", "dictionary" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 1940.0, 1145.0, 150.0, 92.0 ],
-                    "pitchshiftcent": [ -1580 ],
                     "presentation": 1,
                     "presentation_rect": [ 993.0434457063675, 240.54052448272705, 150.0, 92.0 ],
                     "quality": "basic",
@@ -1668,6 +1678,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-119", 0 ],
+                    "source": [ "obj-7", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-50", 0 ],
                     "source": [ "obj-71", 0 ]
                 }
@@ -1868,6 +1884,14 @@
             "obj-97::obj-61": [ "Y origin", "Y origin", 0 ],
             "obj-97::obj-7": [ "pictctrl[5]", "pictctrl[1]", 0 ],
             "obj-97::obj-8": [ "X origin", "X origin", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-96::obj-26": {
                     "parameter_longname": "pictctrl[49]"
